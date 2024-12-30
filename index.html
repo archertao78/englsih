@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>英语点读系统</title>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>英语点读系统</h1>
+  
+  <!-- 模式切换按钮：连续播放 -->
+  <label>
+    <input type="checkbox" id="continuousMode">
+    连续播放
+  </label>
+  
+  <!-- 音频标签：展示音频控制条 -->
+  <audio id="audioPlayer" src="audio.mp3" controls></audio>
+
+  <!-- 字幕容器 -->
+  <div id="lyricsContainer"></div>
+
+  <!-- 引入脚本 -->
+  <script src="script.js"></script>
+</body>
+</html>

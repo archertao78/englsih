@@ -1,0 +1,12 @@
+/* 字幕行的基本样式 */
+.lyric-line {
+    cursor: pointer;      /* 鼠标悬停时出现手型 */
+    margin: 18px 15;        /* 每行上下间距 */
+    line-height: 1.4;     /* 行高 */
+  }
+  
+  /* 高亮样式：点击后背景变黄 */
+  .lyric-line.active {
+    background-color: yellow;
+  }
+  
